@@ -1,0 +1,17 @@
+# Telegram Announcement Bot
+
+A professional multi-user Telegram Bot built with aiogram 3.x to send announcements to multiple groups.
+
+## Features
+- Multi-user isolation (data is per user).
+- Automatic group registration when added as admin.
+- Group selection with pagination and search.
+- Supports Text, Photo, Video, and Forwards.
+- Broadcast progress indicator.
+
+## Deployment on Railway
+1. Fork/Clone this repo.
+2. Create a new project on Railway.
+3. Connect your GitHub.
+4. Add `BOT_TOKEN` in the variables section.
+5. Railway will automatically detect the `Procfile` and start the bot.
